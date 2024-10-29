@@ -12,7 +12,7 @@ get("/process_roll") do
 
     @rolls = []
 
-    @nums_dice.times do
+    @num_dice.times do
         @rolls.push(rand(1..@num_sides))
     end
 
